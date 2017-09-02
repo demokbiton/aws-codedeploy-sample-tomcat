@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 phases:
   build:
@@ -8,4 +8,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - target/mywebapp.war
+  discard-paths: yes
