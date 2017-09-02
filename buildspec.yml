@@ -1,10 +1,10 @@
-version: 0.2
-
+version: 0.1
 phases:
-  post_build:
+  build:
     commands:
-      - echo Build completed on `date`
       - mvn package
 artifacts:
   files:
-    - target/aws-codedeploy-sample-tomcat.war
+    - appspec.yml
+    - target/SampleMavenTomcatApp.war
+    - scripts/*
