@@ -8,5 +8,5 @@ phases:
 
 artifacts:
   files:
-    - target/mywebapp.war
+    - mywebapp.war
   discard-paths: yes
